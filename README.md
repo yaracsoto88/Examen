@@ -55,6 +55,36 @@ Y vuelvo a entrar para chequear que los cambios se han deshecho.
 Se ha cambiado con éxito.
 
 
+### PARTE B
+Lo primero que haré será actualizar la rama main, con ```git pull origin main```
+
+![image](https://user-images.githubusercontent.com/114931679/205115638-a311d065-c04f-4a58-83b8-07e04638e373.png)
+
+Ejecutaremos el comando ```git log –oneline –all``` para visualizar los commits hechos
+
+![image](https://user-images.githubusercontent.com/114931679/205115861-f0851467-4a1a-44f6-ba1e-cfb8f811aad3.png)
+
+Ahora podremos ver mediante type README.md el archivo correspondiente de la Parte A. En vez de “cat” ejecutaremos “type” ya que éste está registrado como comando en CMD.
+
+![image](https://user-images.githubusercontent.com/114931679/205116062-b62819b0-606f-4a05-b472-40e9b626c761.png)
+
+Nos movemos al primer commit realizado mediante ```git checkout```
+
+![image](https://user-images.githubusercontent.com/114931679/205116551-2283fdfa-18bf-44aa-8a4d-2cb6679ce1e7.png)
+
+Ahora volvemos a usar type README.md Nos muestra únicamente la primera línea del archivo de la primera practica
+
+![image](https://user-images.githubusercontent.com/114931679/205116678-86cd258e-35a0-4edd-b923-da93e5f0b97a.png)
+
+Y si nos fijamos, podemos ver que la referencia HEAD apunta al primer commit, el mismo en el que le hemos pedido que nos lea la primera línea.
+
+![image](https://user-images.githubusercontent.com/114931679/205116810-498994c3-361d-4c47-a240-d496555c39bb.png)
+
+
+A continuación, nos moveremos al primer commit mediante ```git checkout origin/main```,  comprobando a su vez que HEAD está en el sitio correspondiente.
+Debería estar en el commit a donde nos hemos movido. 
+
+![image](https://user-images.githubusercontent.com/114931679/205119304-6eff6343-86a1-477c-982b-4f68c7b863a9.png)
 
 
 
