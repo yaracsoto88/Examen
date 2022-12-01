@@ -89,3 +89,15 @@ Debería estar en el commit a donde nos hemos movido.
 
 
 
+### PARTE C
+
+#### Directorio de trabajo (Working directory): El directorio de trabajo es un directorio que contiene los archivos con los que trabajamos en un momento determinado en Git. Mientras cambiamos de rama, por ejemplo de la rama main a la master, dichos archivos podrán ser editados o eliminados. 
+#### Área de preparación (Staging area): El área de preparación es el lugar donde se rastrean y se guardan los cambios, es decir los commits, que hacemos en los archivos con los que trabajamos. 
+#### Repositorio local (Directorio .git): Es el directorio donde hacemos los cambios locales, por lo general este repositorio se encuentra en nuestro ordenador. 
+
+
+
+
+
+
+
