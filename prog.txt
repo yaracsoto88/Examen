@@ -1,0 +1,69 @@
+1.
+Para i=1 hasta len (a)-1
+//Insertar a[i] en la posición que toque en la zona ordenada
+	aux=a[i]
+	j=i
+	Mientras aux<a[j-1] AND (j>=1)
+			a[j]=a[j-1]
+			j=j-1
+	FMientras
+	
+FPara
+
+
+	
+	
+	
+	
+2. Escribir los numeros del 0 a 99 pero las variables que tenemos no pueden pasar de9definir decenas como entero
+
+definir unidades, decenas como entero
+
+Para decenas=0 hasta 9 entonces 
+	Para unidades=0 hasta 9
+	 mostrar decenas
+	 mostrar unidades
+	 
+	 FPara
+FPara
+
+3. Escribir los numeros del 0 a 99 pero las variables que tenemos no pueden pasar de 9, en hexadecimal
+
+//Contadas de dígitos independientes
+
+Funcion mostrar.digito.hexa(numero)
+		
+			si decenas<=9 entonces
+			mostrar decenas
+		SINO 
+		
+			si decenas=10 entonces
+			mostrar "A"
+		sino
+			si decenas=11 entonces
+			mostrar "B"
+		sino
+			si decenas=12 entonces
+			mostrar "C"
+		sino 
+			sidecenas=13 entonces
+			mostrar "D"
+		sino decenas=14 entonces
+			mostrar "E"
+		sino
+			si decenas=15 entonces
+			mostrar "F"
+		sino
+			mostrar"ERROR:biblio>15"
+Ffuncion
+			
+Programa principal 
+
+Para decenas=0 hasta 15 entonces 
+		Para unidades=0 hasta 15
+		mostrar.digito.hexa(decenas)
+		mostrar.digit.hexa(numero)
+		
+		FPara
+FPara 
+
